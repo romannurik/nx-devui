@@ -1,6 +1,6 @@
 import { ExecutorContext, ProjectGraph, PromiseExecutor, Target, parseTargetString, targetToTargetString } from '@nx/devkit';
 import * as blessed from 'blessed';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ChildProcess, spawn } from 'child_process';
 import { ansiRegex } from '../ansi-regex';
 import type { DevExecutorSchema, TargetStatus } from './schema';
