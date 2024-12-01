@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "devui": {
+      "implementation": "./dist/devui-executor/executor",
+      "schema": "./src/devui-executor/schema.json",
+      "description": "DevUI executor"
+    }
+  }
+}

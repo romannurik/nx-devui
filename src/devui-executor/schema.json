@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": 2,
+  "title": "Dev executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "targets": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "statusMatchers": {
+                  "type": "object",
+                  "patternProperties": {
+                    ".*": {
+                      "type": "string",
+                      "enum": ["loading", "success", "error", "warning"]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "boolean",
+              "enum": [true]
+            }
+          ]
+        }
+      },
+      "description": "Patterns of targets to start"
+    }
+  },
+  "required": ["targets"]
+}

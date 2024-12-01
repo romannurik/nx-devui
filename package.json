@@ -1,0 +1,23 @@
+{
+  "name": "nx-devui",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "author": "Roman Nurik <roman@nurik.net>",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "executors": "./executors.json",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nx/devkit": "^20.1.4",
+    "blessed": "^0.1.81",
+    "chalk": "^4.1.2",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "typescript": "^5.7.2"
+  }
+}

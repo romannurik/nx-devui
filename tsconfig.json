@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "declaration": true
+  },
+  "include": ["src/**/*.ts"]
+}
