@@ -1,6 +1,6 @@
 {
   "name": "nx-devui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "commonjs",
   "author": "Roman Nurik <roman@nurik.net>",
   "license": "Apache-2.0",
