@@ -52,3 +52,9 @@ You can also show checkmark, error, or loading icons based on `stdout` or `stder
   }
 }
 ```
+
+After defining the `dev` target like above, you can then start the UI with:
+
+```shell
+nx dev
+```
